@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+div.fixed { 
+    position: fixed; top: 0; left: 0; right: 0;
+}
+
+body {
+    background: url(letras.jpg);
+    background-size: cover;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    font-style: oblique;
+    margin-left: 5vh;
+    font-size: 40px;
+    color: black;
+}
+
+header .menu{
+    background: #FF7F00;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+header .opcoes{
+    color:black;
+    font-family: 'Monaco', Times, serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:black;
+    margin-right: 10px;
+    justify-content: space-between; 
+}
+
+header nav a:hover{
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 5vh;
+    color: #FF7F00;
+    text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
+    text-align:center
+}
+
+.experiencia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 10vh;
+}
+
+.text {
+    text-align: center;
+}
+
+.text span:first-child{
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: #c9e9eb;
+    text-align: center;
+}
+
+.text hr {
+    display: none;
+}
+
+.text span:last-child{
+    font-size: 0.9em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    background-color: #c9e9eb;
+}
+
+
